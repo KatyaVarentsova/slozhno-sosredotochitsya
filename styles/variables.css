@@ -1,4 +1,24 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --color-logo-text: #DB00FF;
+  --color-logo-shadow: #FF0070;
+  --color-accent: #FF0070;
+  --color-button: #FF0070;
+  --color-button-hover: rgba(255, 0, 112, 0.4);
+  --color-header-3: #FF0070;
+  --color-header-4: #000028;
+  --color-header-background: #FF0070;
+  --color-text: #f1b2ce;
+  --color-link-accent: #FF0070;
+
+  --font-mobile: clamp(7.25rem, 6.7836rem + 1.99vw, 7.5rem);
+  --font-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+
+  --main-gap: 10px;
+}
+
+@media (width >= 768px) {
+  :root {
+    --main-gap: 20px;
+
+  }
+}
