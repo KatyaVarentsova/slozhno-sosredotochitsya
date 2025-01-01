@@ -4,23 +4,17 @@
   --color-accent: #FF0070;
   --color-button: #FF0070;
   --color-button-hover: rgba(255, 0, 112, 0.4);
-  --color-header-3: #FF0070;
-  --color-header-4: #000028;
-  --color-header-background: #FF0070;
+  --color-title-section: #FF0070;
+  --color-title-topic: #000028;
+  --color-title-item: #000028;
+  --color-title-background: #FF0070;
   --color-text: #f1b2ce;
   --color-link-accent: #FF0070;
+  --color-background: #000028;
 
   background-image: url(../images/cover-image-dark.png);
 }
 
 .theme_dark .header__rec {
   display: flex;
-}
-
-.theme_dark .header__theme-menu-button_active {
-  border: 1px solid var(--color-button);
-}
-
-.theme_dark .header__theme-menu-button:hover {
-  --nav-hover-color: rgb(255 0 112 / 0.4);
 }
